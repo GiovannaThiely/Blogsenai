@@ -1,0 +1,157 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Arial','sans-serif';
+    color: #ffffff;
+    width: 100%;
+}
+.cabecalho{
+    background-color: #206777;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:900px;
+    padding:10px;
+}
+.menuTopo h1{
+    color:black;
+    text-align: center;
+}
+.menus{
+    display: flex;
+    gap:150px;
+    list-style: none;
+    align-items: center;
+}
+
+.banner{
+    background-color: rgba(117, 178, 195, 0.85);
+    width:100%;
+    height:1050px;
+}
+.itensbanner h1{
+    color: #081139;
+    font-size: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:500px;
+    padding:10px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tecnico1 {
+    width: 50%;
+}
+
+
+
+img{
+    width: 500px;
+}
+
+.autora{
+    display: flex;
+    justify-content: center;
+    gap: 550px;
+}
+.sobreautora h1{
+    color: #081139;
+    font-size: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:500px;
+    padding:10px;
+}
+
+.informacoesfoto{
+    width:50%;
+    font-size:20px;
+    color:black;
+    border: darkgrey 2px solid;
+}
+.informacoes1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 80px;
+    text-align: justify;
+    gap:100px;
+}
+
+.banner1{
+    background-color: rgba(117, 178, 195, 0.85);
+    width:100%;
+
+}
+.itensbanner1 h1{
+    color: #081139;
+    font-size: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:500px;
+    padding:10px;
+}
+.informacoes2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.comentario1{
+    width:50%;
+    font-size:20px;
+    color:black;
+    border: #535353 2px solid;
+    margin-bottom: 20px;
+}
+
+.comentario2{
+    width:50%;
+    font-size:20px;
+    color:black;
+    border: #535353 2px solid;
+    margin-bottom: 20px;
+}
+
+.informacoes3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.rodape{
+    background-color: #206777;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerRodape{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 40px;
+    text-align: justify;
+    gap:80px;
+
+}
+.containerRodape img{
+    width:90px;
+    height: 90px;
+}
